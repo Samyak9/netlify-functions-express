@@ -1,0 +1,329 @@
+<%- include('partials/header') %>
+
+<main role="main">
+
+  <!-- <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/slider-1.jpg" alt="">
+        <div class="container">
+          <div class="carousel-caption text-left car1">
+            <h1>CREATE LEAN & HEALTHY BODY FOR LIFE</h1>
+            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/slider-2.jpg" alt="">
+        <div class="container">
+          <div class="carousel-caption car2">
+            <h1>SAY GOODBYE TO MEDICINES</h1>
+            <p>Here at Eat Wise Health we believe in treating everyone with the help of diet. By having the right diet you can say goodbye to medcinies forever be it Diabetes or Thyroid we have cure for all.</p>
+            <p><a class="btn btn-lg btn-primary" href="#my-service" role="button">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/slider-3.jpg" alt="">
+        <div class="container">
+          <div class="carousel-caption car3">
+            <h1>BEGIN YOUR HEALTHIEST JOURNEY TOGETHER</h1>
+            <p>Over these years we have treated more than hundered's of patients and they are now living a healthy and medicine free life.</p>
+            <p><a class="btn btn-lg btn-primary" href="#my-service" role="button">Get Started</a></a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div> -->
+
+  <div  class="uk-background-fixed" style="background-image: url(images/slider-3.jpg); width: auto;">
+  <div class="uk-container f1">
+
+      <div class="car3">
+        <h1>Book Your Free Consultation Now!</h1>
+        <p>Over these years we have treated more than hundered's of patients and they are now living a healthy and medicine free life.</p>
+        <p><a class="btn btn-lg btn-primary" href="/book" role="button">Book Now</a></p>
+      </div>
+    </div>
+
+  </div>
+
+
+<!-- ================================================== -->
+
+
+  <div class="container marketing">
+    <h1 id="my-services" class="service-head">EAT WISE, DROP A SIZE!</h1>
+    <h2 class="service-subhead">Specialised advice to assist you in reaching your goals.</h2>
+
+    <!-- Three columns of text below the carousel -->
+    <div uk-scrollspy="target:.car; cls: uk-animation-fade; delay: 400"class="row">
+
+
+      <div class="col-lg-4 car" data-city="Clinical Diet">
+        <img class="bd-placeholder-img" width="100" height="100" src="images/nutrition.png" alt="">
+        <h2 class="service-txt">Clinical Diet</h2>
+        <p>We help you lose excess weight and to find a way of eating that you can sustain for a lifetime. It focuses on changing your
+          <span class="dots">...</span>
+          <span class="more">daily routine by adding and breaking habits that can make a difference in your weight.</span></p>
+        <button class="btn myBtn" onclick="readMore('Clinical Diet')">Read more</button>
+      </div>
+
+      <div class="col-lg-4 car" data-city="cupping">
+        <img class="bd-placeholder-img" width="100" height="100" src="images/cupping.png" alt="">
+          <h2 class="service-txt">Cupping</h2>
+        <p>Cupping has numerous benefits & often works wonders for patients with the flu, colds, coughs, back and muscle pain, poor
+          <span class="dots">...</span>
+          <span class="more">circulation, anxiety, red itchy skin conditions, allergies, fevers, aches and myriad other pains.</span></p>
+        <button class="btn myBtn" onclick="readMore('cupping')">Read more</button>
+      </div>
+
+      <div class="col-lg-4 car" data-city="acupressure">
+        <img class="bd-placeholder-img simg" width="100" height="100" style="margin-bottom: 7px;" src="images/acupressure.png" alt="">
+        <h2 class="service-txt">Acupressure</h2>
+        <p>Acupressure is an alternative medicine technique similar in principle to acupuncture. It is based on the concept
+          <span class="dots">...</span>
+          <span class="more"> of life energy which flows through "meridians" in the body. In treatment, physical pressure is applied to acupuncture points with the aim of clearing blockages in these meridians.</span></p>
+        <button class="btn myBtn" onclick="readMore('acupressure')">Read more</button>
+      </div>
+
+      <div class="col-lg-4 car" data-city="acupuncture">
+        <img class="bd-placeholder-img" width="100" height="100" src="images/acupuncture.png" alt="">
+        <h2 class="service-txt">Acupuncture</h2>
+        <p>Acupuncture involves the insertion of very thin needles through your skin at strategic points on your body
+          <span class="dots">...</span>
+          <span class="more">. Increasingly it is being used for overall wellness, including stress management.</span></p>
+        <button class="btn myBtn" onclick="readMore('acupuncture')">Read more</button>
+      </div>
+
+      <div class="col-lg-4 car" data-city="magnet">
+        <img class="bd-placeholder-img" width="100" height="100" src="images/magnet.png" alt="">
+        <h2 class="service-txt">Magnet Therapy</h2>
+        <p>When pressure on points is applied with magnets, we call it magnet therapy. Cases where patients come to the
+          <span class="dots">...</span>
+          <span class="more">center with the support of their relatives but after magnet therapy, they leave without any support.</span></p>
+        <button class="btn myBtn" onclick="readMore('magnet')">Read more</button>
+      </div>
+
+      <div class="col-lg-4 car" data-city="color">
+        <img class="bd-placeholder-img" width="100" height="100" src="images/color-1.png" alt="">
+        <h2 class="service-txt">Color Therapy</h2>
+        <p>Color therapy is an alternative therapy that uses colors and their frequencies to heal physical and emotional
+          <span class="dots">...</span>
+          <span class="more">problems.Color therapy is also known as chromopathy, chromotherapy, or color healing.</span></p>
+        <button class="btn myBtn" onclick="readMore('color')">Read more</button>
+      </div>
+
+    </div><!-- /.row -->
+
+    </div>
+
+  <div id="treatments">
+  </div>
+  <div class="treatments">
+
+
+    <h1>OUR TREATMENTS</h1>
+
+    <div uk-slider= "autoplay: true; autoplay-interval: 3000 ; pause-on-hover: true">
+
+  <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+
+      <ul class="uk-slider-items uk-child-width-1-2@s uk-child-width-1-3@m uk-grid ">
+          <li>
+              <div class="uk-card uk-card-default">
+                  <div class="uk-card-media-top">
+                      <img src="images/service-4.jpg" alt="Weight Management">
+                  </div>
+                  <div class="uk-card-body">
+                      <h3 class="uk-card-title">Weight Management</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                  </div>
+              </div>
+          </li>
+          <li>
+              <div class="uk-card uk-card-default">
+                  <div class="uk-card-media-top">
+                      <img src="images/immunity.jpg" alt="Immunity Booster">
+                  </div>
+                  <div class="uk-card-body">
+                      <h3 class="uk-card-title">Immunity Booster</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                  </div>
+              </div>
+          </li>
+          <li>
+              <div class="uk-card uk-card-default">
+                  <div class="uk-card-media-top">
+                      <img src="images/thyroid.jpg" alt="Thyroid">
+                  </div>
+                  <div class="uk-card-body">
+                      <h3 class="uk-card-title">Thyroid</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                  </div>
+              </div>
+          </li>
+          <li>
+              <div class="uk-card uk-card-default">
+                  <div class="uk-card-media-top">
+                      <img src="images/Diabetes.jpg" alt="Diabetes">
+                  </div>
+                  <div class="uk-card-body">
+                      <h3 class="uk-card-title">Diabetes</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                  </div>
+              </div>
+          </li>
+          <li>
+              <div class="uk-card uk-card-default">
+                  <div class="uk-card-media-top">
+                      <img src="images/digestive.jpg" alt="Digestive Disorders">
+                  </div>
+                  <div class="uk-card-body">
+                      <h3 class="uk-card-title">Digestive Disorders</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                  </div>
+              </div>
+          </li>
+          <li>
+              <div class="uk-card uk-card-default">
+                  <div class="uk-card-media-top">
+                      <img src="images/PCOD.jpg" alt="PCOD & PCOS">
+                  </div>
+                  <div class="uk-card-body">
+                      <h3 class="uk-card-title">PCOD & PCOS</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                  </div>
+              </div>
+          </li>
+          <li>
+              <div class="uk-card uk-card-default">
+                  <div class="uk-card-media-top">
+                      <img src="images/hypertension.jpg" alt="Hypertension">
+                  </div>
+                  <div class="uk-card-body">
+                      <h3 class="uk-card-title">Hypertension</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                  </div>
+              </div>
+          </li>
+          <li>
+              <div class="uk-card uk-card-default">
+                  <div class="uk-card-media-top">
+                      <img src="images/stress.jpg" alt="Stress & Depression">
+                  </div>
+                  <div class="uk-card-body">
+                      <h3 class="uk-card-title">Stress & Depression</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                  </div>
+              </div>
+          </li>
+          <li>
+              <div class="uk-card uk-card-default">
+                  <div class="uk-card-media-top">
+                      <img src="images/skin.jpg" alt="Skin Problems">
+                  </div>
+                  <div class="uk-card-body">
+                      <h3 class="uk-card-title">Skin Problems</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                  </div>
+              </div>
+          </li>
+          <li>
+              <div class="uk-card uk-card-default">
+                  <div class="uk-card-media-top">
+                      <img src="images/hair.jpg" alt="Hair Problems">
+                  </div>
+                  <div class="uk-card-body">
+                      <h3 class="uk-card-title">Hair Problems</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                  </div>
+              </div>
+          </li>
+          <li>
+              <div class="uk-card uk-card-default">
+                  <div class="uk-card-media-top">
+                      <img src="images/arthritis.jpg" alt="Arthritis">
+                  </div>
+                  <div class="uk-card-body">
+                      <h3 class="uk-card-title">Arthritis</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                  </div>
+              </div>
+          </li>
+          <li>
+              <div class="uk-card uk-card-default">
+                  <div class="uk-card-media-top">
+                      <img src="images/pregnancy.jpg" alt="Pregnancy Problems">
+                  </div>
+                  <div class="uk-card-body">
+                      <h3 class="uk-card-title">Pregnancy Problems</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                  </div>
+              </div>
+          </li>
+          <li>
+              <div class="uk-card uk-card-default">
+                  <div class="uk-card-media-top">
+                      <img src="images/menopause.jpg" alt="Menopause">
+                  </div>
+                  <div class="uk-card-body">
+                      <h3 class="uk-card-title">Menopause</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                  </div>
+              </div>
+          </li>
+          <li>
+              <div class="uk-card uk-card-default">
+                  <div class="uk-card-media-top">
+                      <img src="images/hormone.jpg" alt="Hormonal Imbalance">
+                  </div>
+                  <div class="uk-card-body">
+                      <h3 class="uk-card-title">Hormonal Imbalance</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                  </div>
+              </div>
+          </li>
+      </ul>
+
+      <a class="uk-position-center-left uk-position-small uk-hidden-hover tbut" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+      <a class="uk-position-center-right uk-position-small uk-hidden-hover tbut" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
+  </div>
+
+  <ul id="about" class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+
+</div>
+
+</div>
+
+    <!-- START THE FEATURETTES -->
+    <div class="container marketing">
+
+    <div uk-scrollspy="target:.abt; cls: uk-animation-fade; delay: 400" class="row featurette">
+      <div class="col-md-7 abt">
+        <h2 class="featurette-heading abt-hdg">Dr Ritu Jain</h2>
+        <h3><span class="text-muted">Naturopath & Dietitian</span></h3>
+        <p class="lead">From advising patients on optimal health and nutrition goals to developing tailored meal plans, her background has prepared her to thrive in this field. For the past years, She has excelled at providing comprehensive medical nutrition therapy to combat the effects and progression of acute and chronic diseases. Have been providing effective direct plans to patients who all have got successful results.</p>
+      </div>
+      <div class="col-md-5 abt abtimg">
+        <img src="images/welcome.jpg" alt="">
+      </div>
+    </div>
+</div>  <!-- /.container -->
+
+<%- include('partials/footer') %>

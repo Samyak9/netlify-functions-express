@@ -1,0 +1,228 @@
+/* .navbar {
+  background-color: white; */
+/* } */
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  position: relative;
+}
+body , h1, h2 , h3 , p {
+  font-family: 'Cairo', sans-serif;
+}
+
+  /* <------- Navbar -------> */
+  #navBar1 {
+    position: fixed;
+    transition: 0.2s;
+  }
+
+  .floatingNav {
+    border-radius: 2px;
+    box-shadow: 0px 1px 10px #999;
+  }
+
+.navitm {
+  margin: 10px 20px;
+  font-size: 19px;
+  font-weight: lighter;
+  color : black;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+
+.navimg {
+  height: 60px;
+  margin: 0;
+  padding: 0;
+}
+
+
+.bookapt {
+  margin-right: 25px;
+  font-size: 18px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+.navtog {
+  color : black;
+}
+
+/* <------- Caraousel -------> */
+
+/* @media screen and (max-width: 480px){
+  .f1{
+  height: 500px;
+ }
+ .car3{
+   margin-top: 40%;
+ } */
+
+.car1 {
+  background-color: #f0f0f0;
+  opacity: 0.8;
+  padding: 2% 0 5% 5%;
+}
+
+.car1 h1 {
+  color: black;
+  font-size: 2.4rem;
+}
+
+.car1 p {
+  color: black;
+  font-size: 1.2rem;
+
+}
+
+
+.car2 {
+  background-color: #332a1dc7;
+  opacity: 0.7;
+  margin-bottom: 3%;
+  padding: 2% 2% 5% 5%;
+}
+
+.car2 h1 {
+  color: white;
+  font-size: 2.4rem;
+
+}
+
+.car2 p {
+  color: white;
+  font-size: 1.2rem;
+
+}
+
+
+.car3 {
+  background-color: #f0f0f0;
+  opacity: 0.7;
+  padding: 6%;
+  padding-right: 5%;
+  text-align: right;
+  margin-top: 13%;
+  text-align: center;
+}
+
+.car3 h1 {
+  color: black;
+  font-size: 2.4rem;
+
+}
+
+.car3 p {
+  color: black;
+  font-size: 1.2rem;
+
+}
+
+/* <------- Service -------> */
+
+.simg {
+  text-align: center;
+}
+
+.myBtn:hover, .service-txt:hover {
+  color: green;
+}
+
+.service-head {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-top: 2.2rem;
+
+}
+
+.service-subhead {
+  text-align: center;
+  margin-bottom: 60px;
+  font-size: 1.3rem;
+  font-style: italic;
+}
+
+.service-txt {
+  margin-top: 25px;
+}
+
+.car h2 {
+  font-size: 1.8rem;
+  margin-left: 11px;
+}
+
+.car p {
+  text-align: left;
+}
+
+.more {display: none;}
+
+/* <------- Treatments -------> */
+.treatments {
+  background-color: #f8f9fa;
+  margin : 0;
+  margin: 40px 0;
+  padding: 50px;
+}
+
+.treatments h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.treat-hr {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.tbut {
+  background-color: #332a1dc7;
+  opacity: 0.5;
+  margin: 8px;
+}
+/* <------- About -------> */
+.abt-hdg{
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.abtimg {
+  padding-bottom: 7%;
+}
+/* <------- Footer -------> */
+
+.footertxt {
+  font-family: 'Nunito Sans', sans-serif;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.footer-social {
+  font-size: 1.5rem;
+  margin-left: 10px;
+  padding: 0 10px;
+}
+.footer {
+  background-color: #f8f9fa;
+  padding: 5% 15% 20px 15% ;
+  margin-bottom: 0;
+}
+
+.footer a :hover, .footer li :hover {
+  color : green;
+}
+
+.footer-contact {
+  font-size: 1rem;
+
+}
+
+.fofa {
+margin-right: 15px;
+margin-left: 0;
+padding-left: 0;
+
+}
+
+.footer h3 {
+  margin-bottom: 1.2rem;
+}

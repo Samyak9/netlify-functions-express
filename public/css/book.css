@@ -1,0 +1,29 @@
+.form-cont {
+  margin-top: 100px;
+}
+
+.h4{
+  font-size: 4.6vh;
+  text-decoration: underline;
+  text-align: center;
+  padding: 10px;
+}
+label{
+  font-size: 2.3vh;
+  margin-left: 3px;
+}
+.submit{
+  font-size: 2vh;
+  padding: 5px 25px;
+}
+
+::placeholder{
+  font-size: 1.8vh;
+}
+.custom-select{
+  font-size: 1.8vh;
+}
+
+small{
+  font-size: 1.5vh;
+}
